@@ -1,0 +1,20 @@
+{
+  "name": "wei/frame",
+  "type": "project",
+  "authors": [
+    {
+      "name": "wei",
+      "email": "scw_and@163.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.3",
+    "wei/swostar": "dev-master"
+  },
+  "repositories": {
+    "wei": {
+      "type": "path",
+      "url": "../swostar"
+    }
+  }
+}

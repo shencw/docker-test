@@ -1,0 +1,46 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "ae5c93beebd8e42b90bf32b4990b6705",
+    "packages": [
+        {
+            "name": "wei/swostar",
+            "version": "dev-master",
+            "dist": {
+                "type": "path",
+                "url": "../swostar",
+                "reference": "946cb67e4df0a18f0990b0bb23d5ae07d9f471c4"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "SwoStar\\": "src/"
+                }
+            },
+            "authors": [
+                {
+                    "name": "wei",
+                    "email": "scw_and@163.com"
+                }
+            ],
+            "description": "基于Swoole实现library测试项目",
+            "transport-options": {
+                "relative": true
+            }
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "wei/swostar": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "1.1.0"
+}

@@ -1,0 +1,19 @@
+{
+    "name": "Wei/io",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Wei"
+        }
+    ],
+    "autoload":{
+        "psr-4":{
+            "Wei\\Io\\":"./src/"
+        },
+        "files":[
+          "src/Helper.php"
+        ]
+    },
+    "require": {}
+}

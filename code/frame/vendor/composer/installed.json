@@ -1,0 +1,29 @@
+[
+    {
+        "name": "wei/swostar",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "dist": {
+            "type": "path",
+            "url": "../swostar",
+            "reference": "946cb67e4df0a18f0990b0bb23d5ae07d9f471c4"
+        },
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "SwoStar\\": "src/"
+            }
+        },
+        "authors": [
+            {
+                "name": "wei",
+                "email": "scw_and@163.com"
+            }
+        ],
+        "description": "基于Swoole实现library测试项目",
+        "transport-options": {
+            "relative": true
+        }
+    }
+]
